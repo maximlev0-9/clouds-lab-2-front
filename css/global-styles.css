@@ -1,0 +1,39 @@
+:root {
+    --first-text-decoration-color: #26a;
+    --second-text-decoration-color: #26a;
+    --main-bg-color: #9cf12d;
+    --secondary-bg-color: rgb(181, 255, 255);
+    --third-text-decoration-color: #26a;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    color: var(--first-text-decoration-color);
+}
+
+.main-part {
+    margin: 0px 60px 0px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--third-text-decoration-color);
+    margin: 0;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+button {
+    border: 2px solid transparent;
+    border-color: var(--first-text-decoration-color);
+    border-radius: 5px;
+    height: 40px;
+    background-color: var(--main-bg-color);
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: var(--first-text-decoration-color);
+    cursor: pointer;
+}

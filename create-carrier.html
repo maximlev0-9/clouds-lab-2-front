@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create carrier</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__title">
+            <h1 class="page-title">Create a new carrier</p>
+                <a href="/index.html">Show all carriers</a>
+        </div>
+    </header>
+    <section class="main__part">
+        <form id="add_form" class="create-carrier__form">
+            <label for="carrier_name">Name:</label>
+            <input type="text" id="carrier_name" placeholder="carrier name">
+            <br>
+            <label for="latitude">Latitude:</label>
+            <input type="number" id="latitude" placeholder="carrier latitude">
+            <br>
+            <label for="longitude">longitude:</label>
+            <input type="number" id="longitude" placeholder="longitude">
+            <br>
+            <label for="schedule">Schedule:</label>
+            <input type="text" id="schedule" placeholder="schedule">
+            <br>
+            <label for="vehicle_name">Vehicle name:</label>
+            <input type="text" id="vehicle_name" placeholder="vehicle_name">
+            <br>
+            <label for="vehicle_size_in_meters">Vehicle size in meters:</label>
+            <input type="text" id="vehicle_size_in_meters" placeholder="vehicle_size_in_meters">
+            <br>
+            <input type="button" class="submit" id="submit_button" value="Submit">
+        </form>
+    </section>
+    <script type="module" src="js/create-form.js"></script>
+</body>
+
+</html>
