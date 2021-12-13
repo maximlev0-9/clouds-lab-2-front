@@ -1,6 +1,6 @@
 import { displayCarrier } from "./script.js";
 
-const urlCarriers = "http://localhost:7071/api/carrier";
+const urlCarriers = "https://lab-2-function.azurewebsites.net/api/carrier";
 
 const main_part = document.getElementById("main-page");
 

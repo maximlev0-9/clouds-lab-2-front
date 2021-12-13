@@ -1,4 +1,4 @@
-const url = "http://localhost:7071/api/carrier";
+const url = "https://lab-2-function.azurewebsites.net/api/carrier";
 
 export const post = async (input) => {
 
